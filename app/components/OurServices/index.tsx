@@ -30,13 +30,13 @@ const ServiceData: datatype[] = [
     },
     {
         heading: "Move-In/Move-Out Services",
-        imgSrc: "/images/OurServices/imgTwo.svg",
+        imgSrc: "/images/OurServices/img4.svg",
         paragraph: 'From homes to offices, we meet your unique cleaning needs.',
         link: 'Learn more'
     },
     {
         heading: "Post-Construction Cleaning",
-        imgSrc: "/images/OurServices/imgOne.svg",
+        imgSrc: "/images/OurServices/img5.svg",
         paragraph: 'From homes to offices, we meet your unique cleaning needs.',
         link: 'Learn more'
     },

@@ -16,25 +16,25 @@ interface DataType {
 const postData: DataType[] = [
     {
         name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
+        profession: '',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
         name: "Leslie Alexander",
-        profession: 'CEO, Parkview Int.Ltd',
+        profession: '',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
         name: "Cody Fisher",
-        profession: 'CEO, Parkview Int.Ltd',
+        profession: '',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
         imgSrc: '/images/testimonial/user3.svg',
     },
     {
         name: "Robert Fox",
-        profession: 'CEO, Parkview Int.Ltd',
+        profession: '',
         comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
         imgSrc: '/images/testimonial/user1.svg',
     },

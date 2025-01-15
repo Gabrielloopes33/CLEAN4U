@@ -21,18 +21,13 @@ export default function Home() {
       <Banner />
       <Aboutus />
       <Dedicated />
+      <Featured />
       <OurService />
-      <Digital />
       <Beliefs />
       <Wework />
-      <Ourteam />
-      <Featured />
-      <Manage />
-      <FAQ />
+      
       <Testimonials />
-      <Articles />
-      <Joinus />
-      <Insta />
+      <FAQ />
     </main>
   )
 }

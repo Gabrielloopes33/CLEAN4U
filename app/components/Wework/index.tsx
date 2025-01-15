@@ -99,27 +99,14 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 '>
 
                     <div className="text-center">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">We work in several verticals.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-50 lg:mr-48 my-2">We work in several verticals.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">We work in several verticals.</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black my-2">Our Commitment to Sustainability</h3>
+                        <h5 className="text-4xl sm:text-6xl font-regular text-regular opacity-40  my-10">We are dedicated to eco-friendly practices, using non-toxic and biodegradable cleaning solutions to minimize environmental impact while ensuring your home remains safe for your loved ones.</h5>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-black opacity-25 lg:-mr-32 my-2">your home remains safe for your loved ones.</h3>
                     </div>
 
                 </div>
 
-                <Slider {...settings}>
-                    {postData.map((items, i) => (
-                        <div key={i}>
-                            <div className='bg-white m-3 py-14 my-10 text-center shadow-xl rounded-3xl'>
-                                <div className='relative'>
-                                    <Image src={items.imgSrc} alt="gaby" width={182} height={182} className="inline-block m-auto" />
-                                    <Image src={'/images/wework/linkedin.svg'} alt="greenbg" width={120} height={120} className=" absolute inline-block position-linkedin" />
-                                </div>
-                                <h4 className='text-4xl font-bold pt-14'>{items.name}</h4>
-                                <h3 className='text-2xl font-normal pt-4 pb-2 opacity-50'>{items.profession}</h3>
-                            </div>
-                        </div>
-                    ))}
-                </Slider>
+                
 
             </div>
 

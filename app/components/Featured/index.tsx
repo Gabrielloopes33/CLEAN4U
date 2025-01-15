@@ -12,21 +12,18 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        heading: 'Brand design for a computer brand.',
-        imgSrc: '/images/featured/feat1.jpg',
+        heading: 'Cleaning and organizing the living room',
+        imgSrc: '/images/featured/ba-01.png',
     },
     {
-        heading: 'Mobile app 3d wallpaper.',
-        imgSrc: '/images/featured/feat2.jpg',
+        heading: 'Cleaning the kitchen stove',
+        imgSrc: '/images/featured/ba-02.png',
     },
     {
-        heading: 'Brand design for a computer brand.',
-        imgSrc: '/images/featured/feat1.jpg',
+        heading: 'Cleaning the kitchen stove',
+        imgSrc: '/images/featured/ba-03.png',
     },
-    {
-        heading: 'Mobile app 3d wallpaper.',
-        imgSrc: '/images/featured/feat2.jpg',
-    }
+    
 ]
 
 // CAROUSEL SETTINGS
@@ -84,13 +81,13 @@ export default class MultipleItems extends Component {
 
 
         return (
-            <div className="bg-bgblue py-20 marginFeature bg-featured">
-                <div className='mx-auto max-w-7xl sm:py-4 lg:px-8 '>
+            <div className="bg-bgblue py-30  bg-featured">
+                <div className='mx-auto max-w-7xl sm:py-2 lg:px-8 '>
 
-                    <div className="text-center pt-48 pb-10 md:pt-96">
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-50 lg:mr-48 my-2">Featured works.</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-25 lg:-mr-32 my-2">Featured works.</h3>
+                    <div className="text-center pt-48 pb-20 md:pt-36">
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white my-2">Look at these</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-50 lg:mr-48 my-2">Before / after</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold text-white text-opacity-25 lg:-mr-32 my-2">Before / after</h3>
                     </div>
 
                     <Slider {...settings}>
