@@ -15,9 +15,9 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'About Us', href: '#aboutus-section', current: false },
+    { name: 'About Us', href: '/about', current: false },
     { name: 'Services', href: '#services-section', current: false },
-    { name: 'Free quote', href: '#faq-section', current: false },
+    { name: 'Free quote', href: '/quote', current: false },
     //{ name: 'Blog', href: '#blog-section', current: false },
     //{ name: 'Testimonial', href: '#testimonial-section', current: false },
 ]
