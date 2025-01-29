@@ -59,7 +59,56 @@ module.exports = {
       '65xl': ['65px', { lineHeight: '1' }],
       '80xl': ['80px', { lineHeight: '6rem' }],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideFromLeft: {
+          '0%': { transform: 'translateX(-100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        slideFromBottom: {
+          '0%': { transform: 'translateY(100%)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        floatingImage: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+        slideFromRight: {
+          '0%': { transform: 'translateX(100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)', opacity: '1' },
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.5' },
+        }
+      },
+      animation: {
+        fadeIn: 'fadeIn 1s ease-in forwards',
+        slideFromLeft: 'slideFromLeft 0.8s ease-out forwards',
+        slideFromBottom: 'slideFromBottom 0.8s ease-out forwards',
+        floatingImage: 'floatingImage 3s ease-in-out infinite',
+        slideFromRight: 'slideFromRight 0.8s ease-out forwards',
+        pulse: 'pulse 2s ease-in-out infinite',
+      },
+      utilities: {
+        '.opacity-0': {
+          opacity: '0'
+        },
+        '.translate-y-full': {
+          transform: 'translateY(100%)'
+        },
+        '.translate-x-full': {
+          transform: 'translateX(100%)'
+        },
+        '.translate-x-negative-full': {
+          transform: 'translateX(-100%)'
+        }
+      }
+    },
   },
   plugins: [],
 }
