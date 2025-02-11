@@ -4,12 +4,7 @@ import Link from 'next/link';
 import AnimatedBackground from '../components/AnimatedBackground';
 
 const links = [
-    {
-        title: "Free quote",
-        url: "/quote",
-        bgColor: "bg-blue",
-        hoverColor: "hover:bg-hoblue"
-    },
+    
     {
         title: "Visit Our Website",
         url: "/",
@@ -18,19 +13,19 @@ const links = [
     },
     {
         title: "Instagram",
-        url: "https://instagram.com/your-handle",
+        url: "https://www.instagram.com/cleaning4you1",
         bgColor: "bg-[#E4405F]",
         hoverColor: "hover:bg-[#d1365d]"
     },
     {
         title: "WhatsApp",
-        url: "https://wa.me/your-number",
+        url: "https://wa.me/15614493627?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es",
         bgColor: "bg-[#25D366]",
         hoverColor: "hover:bg-[#20bd5a]"
     },
     {
-        title: "iMessage",
-        url: "https://facebook.com/your-page",
+        title: "iMessage / SMS",
+        url: "sms:+15614493627&body=Olá,%20gostaria%20de%20mais%20informações.",
         bgColor: "bg-[#1877F2]",
         hoverColor: "hover:bg-[#0d64d8]"
     }
