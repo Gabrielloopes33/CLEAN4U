@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/index';
 import {Fredoka} from 'next/font/google'
+import Script from 'next/script';
 
 const MainFontFamily = Fredoka({
   weight: ['400'],
